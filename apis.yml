@@ -1,8 +1,25 @@
 aid: joyride
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/joyride.png
 name: Joyride
-description: 'Joyride is a company surfaced as a portfolio company of cowboy-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Joyride was a mobile audio service that made driving more fun and more interesting,
+  offering an in-car audio/entertainment experience for drivers and passengers. Founded by
+  Jeff Chen (co-founder & CEO) and James Zhang (co-founder & CTO), the company raised a seed
+  round from Cowboy Ventures and was subsequently acquired by Google, marking a successful
+  exit. As a consumer mobile application it exposed no public developer API surface, and the
+  product is no longer independently operated following the acquisition. This profile is
+  retained in the API Evangelist network for portfolio-graph completeness rather than as an
+  active API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/joyride/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +27,27 @@ x-backed-by:
 - cowboy-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: google
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Audio
+- Mobile
+- Automotive
+- Entertainment
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
